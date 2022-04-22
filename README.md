@@ -6,7 +6,7 @@ Monitoramento da caixa de entrada de um e-mail para emitir alertas via ligação
   
   Ao encontrar, o robô iniciará a chamada para o primeiro número da lista de destinatários do arquivo de configuração, e para cada destinatário será feita x tentativas caso a chamada falhe ou não seja atendida, quando atendida é registrado o id da chamada no arquivo de log e o monitoramento da caixa de entrada continua.
   
-Observação: Para identificar que a chamada foi atendida e a mensagem entregue, é necessário apertar qualquer número do teclado númerico durante a ligação ou recusá-la.
+Observação: Para notificar que o chamado será aceito é necessário digitar '1' no teclado numérico durante a chamada, apertando qualquer outra tecla o chamado será identificado como recusado, e o robô tentará entrar em contato com o próximo destinatário.
 
 ### Parâmetros no arquivo de configuração
 
